@@ -1,0 +1,13 @@
+n=1
+text = "Hola"
+while n<=100:
+    if n%3==0 and n%5==0:
+        text += ",fizzbuzz"
+    elif n%3==0:
+        text+= ",fizz"
+    elif n%5==0:
+        text +=",buzz"
+    else:
+        text+= ", "+str(n)
+    n=n+1
+print(text)  
